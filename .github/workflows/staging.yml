@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /var/www/panel
+            cd /var/www/pterodactyl
             git pull origin staging
             yarn install
             yarn run build:production
