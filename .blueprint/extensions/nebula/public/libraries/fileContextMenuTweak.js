@@ -1,0 +1,1 @@
+function contextTweak(){fmode=fileModeGet(),(page=nebulaCurrentPage()).startsWith("serverFiles")&&"grid"==fmode?document.getElementById("contextTweak")||fetchStyle("/extensions/nebula/libraries/fileContextMenuTweak.css","contextTweak"):document.getElementById("contextTweak")&&removeStyle("contextTweak")}console.log("nebula#~ fileContextMenuTweak.js");

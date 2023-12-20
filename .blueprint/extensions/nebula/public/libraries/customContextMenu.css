@@ -1,0 +1,36 @@
+/* © 2023 prpl.wtf */
+#nebulaContextMenu {
+  display: none
+}
+
+.context-container {
+  background-color: #0c090a;
+  width: max-content;
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.context-button {
+  color: #fff;
+  border: none;
+  background-color: #35353500;
+  font-size: 13.5px;
+  border-radius: 5px;
+  padding: 6px 15px;
+  transition: background-color .2s;
+  margin-bottom: 10px;
+  text-align: start;
+  width: 100%;
+}
+.context-button:hover {
+  background-color: #2f55ff;
+}
+
+.context-icon {
+  margin-right: 6px;
+  margin-top: 1px;
+  float: left;
+}

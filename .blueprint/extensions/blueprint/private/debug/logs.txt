@@ -1,0 +1,492 @@
+[0m  ██
+██  ██
+  ████
+[0m
+
+
+[2m[INFO] Checking dependencies..[0m
+
+
+[1m[FATAL] Blueprint found errors for the following dependencies:[0m
+
+
+[31m[1m[FATAL] Blueprint found errors for the following dependencies:[0m[0m
+
+
+[31m  - "zip" is not installed or detected.[0m
+
+
+[0m  ██
+██  ██
+  ████
+[0m
+
+
+[2m[INFO] Checking dependencies..[0m
+
+
+[2m[INFO] Linking directories..[0m
+
+
+[2m[INFO] Updating folder placeholders..[0m
+
+
+[2m[INFO] Copying Blueprint logo from assets..[0m
+
+
+[2m[INFO] Enable maintenance.[0m
+
+
+[2m[INFO] Modifying admin panel css.[0m
+
+
+[2m[INFO] Clearing view cache..[0m
+
+
+[2m[INFO] Linking filesystems..[0m
+
+
+[2m[INFO] Rolling admin cache refresh class name.[0m
+
+
+[34m[INPUT] Do you want to migrate your database? (Y/n)[0m
+
+
+[2m[INFO] Running database migrations..[0m
+
+
+[2m[INFO] Changing file ownership to www-data..[0m
+
+
+[2m[INFO] Rebuilding panel assets..[0m
+
+
+[2m[INFO] Updating route cache to include recent changes..[0m
+
+
+[2m[INFO] Disable maintenance.[0m
+
+
+[2m[INFO] Syncing database values..[0m
+
+
+[2m[INFO] Blueprint is completely open source and free. Please consider supporting us on "ptero.shop/donate".[0m
+
+
+[32m
+
+[SUCCESS] Blueprint should now be installed. If something didn't work as expected, please let us know at ptero.shop/issue.[0m
+
+
+[2m[INFO] Checking dependencies..[0m
+
+
+[2m[INFO] Preparing placeholders..[0m
+
+
+[1m[INFO] Applying placeholders..[0m
+
+
+[2m[1m[INFO] Applying placeholders..[0m[0m
+
+
+[2m  - .blueprint/tmp/nebula/LICENSE[0m
+
+
+[2m  - .blueprint/tmp/nebula/README.md[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/admin.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/controller.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/view.blade.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/client/wrapper.blade.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/conf.yml[0m
+
+
+[2m  - .blueprint/tmp/nebula/nebula.jpg[0m
+
+
+[2m  - .blueprint/tmp/nebula/private/export.sh[0m
+
+
+[2m  - .blueprint/tmp/nebula/private/install.sh[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/index.html[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/bootstrap-icons.woff[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/bootstrap-icons.woff2[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/keyboard.png[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/bootstrap-icons.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/copyapi.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/currentPage.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/customContextMenu.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/customContextMenu.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fetchServerId.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fetchStyle.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileContextMenuTweak.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileContextMenuTweak.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileMode.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileMode.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fixUserInterfaceBugs.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/hideRecaptcha.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/hideServerOverviewGraphs.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybinds.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybindsModal.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybindsModal.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/locationchange.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/recaptcha.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/squareFileManager.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/statusOrb.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/statusOrb.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/assets/background.jpg[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/index.html[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/style.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/src/index.js[0m
+
+
+[33m[1;33][WARNING] This extension is built for version alpha-IPS, but your version is alpha-3ZX.[0m
+
+
+[2m[INFO] Identifier a-z checks passed.[0m
+
+
+[2m[INFO] Creating public directory..[0m
+
+
+[2m[INFO] Placing public directory contents..[0m
+
+
+[2m[INFO] Creating data directory..[0m
+
+
+[2m[INFO] Caching extension config inside of data directory..[0m
+
+
+[2m[INFO] Placing private directory contents..[0m
+
+
+[2m[INFO] Placing admin css..[0m
+
+
+[2m[INFO] Placing dashboard wrapper..[0m
+
+
+[2m[INFO] Backing up (some) build files..[0m
+
+
+[2m[INFO] Cleaning up temporary built files..[0m
+
+
+[2m[INFO] Cleaning up temp files..[0m
+
+
+[2m[INFO] Updating route cache to include recent changes..[0m
+
+
+[33m[1;33][WARNING] This extension uses a custom installation script, proceed with caution.[0m
+
+
+[2m[INFO] Added 'nebula' to the list of installed extensions.[0m
+
+
+[32m
+
+[SUCCESS] nebula should now be installed. If something didn't work as expected, please let us know at ptero.shop/issue.[0m
+
+
+[31m[FATAL] '-uninstall' is not a valid command or argument. Use argument '-help' for a list of commands.[0m
+
+
+[31m[FATAL] '-hep' is not a valid command or argument. Use argument '-help' for a list of commands.[0m
+
+
+[2m[INFO] Checking dependencies..[0m
+
+
+[34m[INPUT] Are you sure you want to continue? Some extension files might not be removed as Blueprint does not keep track of them. (y/N)[0m
+
+
+[2m[INFO] Removing admin button..[0m
+
+
+[2m[INFO] Removing admin routes..[0m
+
+
+[2m[INFO] Removing admin view..[0m
+
+
+[2m[INFO] Removing admin controller..[0m
+
+
+[2m[INFO] Removing admin css..[0m
+
+
+[2m[INFO] Removing dashboard wrapper..[0m
+
+
+[2m[INFO] Removing public folder..[0m
+
+
+[2m[INFO] Removing assets..[0m
+
+
+[2m[INFO] Removing data folder..[0m
+
+
+[2m[INFO] Updating route cache to include recent changes..[0m
+
+
+[2m[INFO] Removing extension from installed extensions list..[0m
+
+
+[32m[SUCCESS] 'nebula' has been removed from your panel. Please note that some files might be left behind.[0m
+
+
+[2m[INFO] Checking dependencies..[0m
+
+
+[2m[INFO] Preparing placeholders..[0m
+
+
+[1m[INFO] Applying placeholders..[0m
+
+
+[2m[1m[INFO] Applying placeholders..[0m[0m
+
+
+[2m  - .blueprint/tmp/nebula/LICENSE[0m
+
+
+[2m  - .blueprint/tmp/nebula/README.md[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/admin.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/controller.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/admin/view.blade.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/client/wrapper.blade.php[0m
+
+
+[2m  - .blueprint/tmp/nebula/conf.yml[0m
+
+
+[2m  - .blueprint/tmp/nebula/nebula.jpg[0m
+
+
+[2m  - .blueprint/tmp/nebula/private/export.sh[0m
+
+
+[2m  - .blueprint/tmp/nebula/private/install.sh[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/index.html[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/bootstrap-icons.woff[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/bootstrap-icons.woff2[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/assets/keyboard.png[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/bootstrap-icons.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/copyapi.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/currentPage.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/customContextMenu.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/customContextMenu.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fetchServerId.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fetchStyle.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileContextMenuTweak.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileContextMenuTweak.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileMode.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fileMode.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/fixUserInterfaceBugs.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/hideRecaptcha.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/hideServerOverviewGraphs.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybinds.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybindsModal.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/keybindsModal.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/locationchange.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/recaptcha.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/squareFileManager.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/statusOrb.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/libraries/statusOrb.js[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/assets/background.jpg[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/index.html[0m
+
+
+[2m  - .blueprint/tmp/nebula/public/overlay/configure/style.css[0m
+
+
+[2m  - .blueprint/tmp/nebula/src/index.js[0m
+
+
+[33m[1;33][WARNING] This extension is built for version alpha-IPS, but your version is alpha-3ZX.[0m
+
+
+[2m[INFO] Identifier a-z checks passed.[0m
+
+
+[2m[INFO] Creating public directory..[0m
+
+
+[2m[INFO] Placing public directory contents..[0m
+
+
+[2m[INFO] Creating data directory..[0m
+
+
+[2m[INFO] Caching extension config inside of data directory..[0m
+
+
+[2m[INFO] Placing private directory contents..[0m
+
+
+[2m[INFO] Placing admin css..[0m
+
+
+[2m[INFO] Placing dashboard wrapper..[0m
+
+
+[2m[INFO] Backing up (some) build files..[0m
+
+
+[2m[INFO] Cleaning up temporary built files..[0m
+
+
+[2m[INFO] Cleaning up temp files..[0m
+
+
+[2m[INFO] Updating route cache to include recent changes..[0m
+
+
+[33m[1;33][WARNING] This extension uses a custom installation script, proceed with caution.[0m
+
+
+[2m[INFO] Added 'nebula' to the list of installed extensions.[0m
+
+
+[32m
+
+[SUCCESS] nebula should now be installed. If something didn't work as expected, please let us know at ptero.shop/issue.[0m
+
+

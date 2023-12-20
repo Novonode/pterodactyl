@@ -1,0 +1,33 @@
+name: Deploy to staging.novonode.com
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: SSH into VPS
+        uses: appleboy/ssh-action@master
+        with:
+          host: 172.93.100.201
+          username: root
+          key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd /var/www/panel
+            git pull origin staging
+<<<<<<< HEAD
+            echo "Updated staging panel to latest"
+=======
+            yarn install
+            yarn run build:production
+            php artisan route:clear && php artisan cache:clear && php artisan view:clear
+            php artisan migrate
+            echo "Updated staging panel to latest"
+>>>>>>> 00bbd9758f67dc81e1a6bd33f2f4d513b261af44

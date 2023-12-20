@@ -1,0 +1,1 @@
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center"><a href="{{ route('admin.extensions.nebula.index') }}"><button class="btn extension-btn" style="width:100%;margin-bottom:17px;"><img src="/assets/extensions/nebula/icon.jpg" alt="logo" class="extension-btn-image"><p class="extension-btn-text">Nebula</p><p class="extension-btn-version">1.4.6</p></button></a></div>

@@ -1,0 +1,18 @@
+/* © 2023 prpl.wtf */
+:root {
+  --dropdown-squarefilemanager-left: unset;
+  --dropdown-squarefilemanager-right: 15px;
+  --dropdown-squarefilemanager-top: 40px;
+}
+
+/* dropdown menu */
+.DropdownMenu___StyledDiv-sc-1ojgpy2-1.eANsNt.fade-enter-done,
+.DropdownMenu___StyledDiv-sc-1ojgpy2-1.eANsNt {
+  left: var(--dropdown-squarefilemanager-left) !important;
+  right: var(--dropdown-squarefilemanager-right) !important;
+  top: var(--dropdown-squarefilemanager-top) !important;
+  z-index: 50 !important;
+  display: none; /*temp fix for broken action menu*/
+}
+.DropdownMenu___StyledDiv-sc-1ojgpy2-1.eANsNt {opacity: 0 !important; transition: opacity .2s;}
+.DropdownMenu___StyledDiv-sc-1ojgpy2-1.eANsNt.fade-enter-done {opacity: 1 !important;}

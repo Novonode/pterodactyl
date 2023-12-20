@@ -1,0 +1,48 @@
+.nebula-devider {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #4d5b69;
+}
+
+.nebula-spacing {
+  margin-bottom: 5px;
+}
+
+.nebula-text-center {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#save-overlay {
+  display: none;
+  position: fixed;
+  transition: bottom 1s;
+  bottom: -200px;
+  z-index: 500;
+}
+
+.nebula-reset-container {
+  padding: calc(.75rem - 2px) 0;
+  float: right;
+  background-color: #515f6cbb;
+  border: #606d7b 1px solid;
+  border-left: none;
+  border-radius: 0 .25rem .25rem 0;
+  color: #cad1d8;
+  height: 34px;
+  min-width: calc(15px + .75rem + 1px);
+  overflow: hidden;
+}
+
+.nebula-input-with-reset {
+  width: 100%;
+  max-width: calc(100% - (15px + .75rem + 1px));
+  float: left;
+  border-right: none;
+  border-radius: .25rem 0 0 .25rem !important;
+}
+
+.nebula-reset-icon {
+  font-size: 15px;
+  margin-top: calc(34px / 2 - 15px);
+}

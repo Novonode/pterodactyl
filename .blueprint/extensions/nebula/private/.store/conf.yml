@@ -1,0 +1,27 @@
+info:
+  name: "Nebula"
+  identifier: "nebula"
+  description: "Pterodactyl takes flight."
+  flags: "hasInstallScript, hasExportScript"
+  version: "1.4.6"
+  target: "alpha-IPS"
+  author: "prplwtf"
+  icon: "nebula.jpg"
+  website: ""
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  css: "admin/admin.css"
+  wrapper: ""
+
+dashboard:
+  wrapper: "client/wrapper.blade.php"
+  css: ""
+
+data:
+  directory: "private"
+  public: "public"
+
+database:
+  migrations: ""

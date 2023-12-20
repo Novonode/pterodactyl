@@ -1,0 +1,1 @@
+Route::group(['prefix' => 'extensions/nebula'], function () {Route::get('/', [Admin\Extensions\nebula\nebulaExtensionController::class, 'index'])->name('admin.extensions.nebula.index');Route::patch('/', [Admin\Extensions\nebula\nebulaExtensionController::class, 'update']);Route::post('/', [Admin\Extensions\nebula\nebulaExtensionController::class, 'post']);});
