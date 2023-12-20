@@ -26,5 +26,5 @@ jobs:
             export NODE_OPTIONS=--openssl-legacy-provider # for NodeJS v17+
             yarn run build:production
             php artisan route:clear && php artisan cache:clear && php artisan view:clear
-            php artisan migrate
+            yes | php artisan migrate
             echo "Updated staging panel to latest"
