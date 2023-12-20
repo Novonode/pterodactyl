@@ -22,12 +22,8 @@ jobs:
           script: |
             cd /var/www/panel
             git pull origin staging
-<<<<<<< HEAD
-            echo "Updated staging panel to latest"
-=======
             yarn install
             yarn run build:production
             php artisan route:clear && php artisan cache:clear && php artisan view:clear
             php artisan migrate
             echo "Updated staging panel to latest"
->>>>>>> 00bbd9758f67dc81e1a6bd33f2f4d513b261af44
