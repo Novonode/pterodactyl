@@ -23,6 +23,7 @@ jobs:
             cd /var/www/pterodactyl
             git pull origin staging
             yarn install
+            export NODE_OPTIONS=--openssl-legacy-provider # for NodeJS v17+
             yarn run build:production
             php artisan route:clear && php artisan cache:clear && php artisan view:clear
             php artisan migrate
